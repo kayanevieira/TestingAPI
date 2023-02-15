@@ -65,4 +65,4 @@ URL: https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/bank?ID=1 Metód
 URL: https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/bank?ID=1 Metódo: GET</td>
 </tr>
 
-8- Os testes automatizados implementados com a linguagem JavaScript em Cypress estão em: TestingAPI/cypress/e2e/EmprestimosBancarios.cy.js, para roda-los, digitar no terminal com o caminho TestingAPI/cypress, "npm run cypress"
+8- Os testes automatizados implementados com a linguagem JavaScript em Cypress estão em: TestingAPI/cypress/e2e/EmprestimosBancarios.cy.js, para roda-los, é necessário ter o Node.JS instalado, digitar no terminal "npm install" na pasta raíz, e após isso, com o caminho TestingAPI/cypress, digitar "npm run cypress"
