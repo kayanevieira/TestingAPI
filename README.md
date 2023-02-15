@@ -35,6 +35,11 @@
 <td>Encontrei uma falha na segurança da consulta das instituções financeiras, pois está sendo permitido consultar as mesmas informações independente de utilizar o token de autorização ou não. As responses só deveriam ser exibidas com o preenchimento do token, e sem o preenchimento deveria retornar Status 401 - Unauthorized. Utilizei o token: Barear eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJkZXNhZmlvIjoic2VyYXNhIn0.oOMv4kf9hKMtuatZEZJyESVu9Z7h6hGBwrZRJ-9HkCU</td>
 </tr>
 <tr>
+<td>Alto</td>
+<td>Quando tento atualizar as informações de um banco mas sem os parâmetros necessários, é devolvido a mensagem de "Registro alterado com sucesso!" mesmo sem ter enviado alguma mudança:
+URL: https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/bank Metódo: PUT</td>
+</tr>
+<tr>
 <td>Médio</td>
 <td>Quando faço a tentativa de filtrar uma instituição financeira por um estado que não contém uma, é retornado instituições financeiras do estado SC, ao invés disso, deveria retornar Status 404 - Not Found, pois na lista completa dos bancos, o estado consultado não possui nenhuma instituição financeira. Realizei a consulta da seguinte forma:
 URL: https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/bank?estadoAtuacao=RS Metódo: GET</td>
