@@ -23,7 +23,7 @@
 
 6- Escrevi os cenários de teste utilizando Gherkin, por se tratar de uma linguagem natural, pode ser compreendida por todo o time do produto e também pode ser integrado com os testes automatizados, se desejado. Os cenários estão em: TestingAPI/cypress/features/EmprestimosBancarios.feature
 
-7- 
+7- Tabela no fim do README.md
 <table>
 <thead>
 <th>Criticidade</th>
