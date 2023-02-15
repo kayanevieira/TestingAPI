@@ -293,4 +293,13 @@ describe("POST", () => {
       });
     });
   });
+  it("Atualizar as informações de um banco com a URL sem parâmetros", () => {
+    cy.request({
+      method: "GET",
+      url: url + "/bank",
+      headers: { authorization },
+    }).then((response) => {
+      expect(response.status).to.eq(400);
+    });
+  });
 });
